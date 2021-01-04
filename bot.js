@@ -11,7 +11,7 @@ bot.command(['Clase','clase','Clases','clases','misclase','MisClases'],(ctx)=>{
     ctx.reply("Esas son tus clases")
 })
 bot.hears(['Clase','clase','Clases','clases','misclase','MisClases'],(ctx)=>{
-    ctx.replyWithPhoto({source: 'img/1.jpeg'});
+    ctx.replyWithPhoto({source: '1.jpeg'});
     ctx.reply("Esas son tus clases")
 })
 bot.command(['siguienteClase','SiguienteClase','siguienteclase','Siguienteclase'],(ctx)=>{
