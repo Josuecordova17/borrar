@@ -22,6 +22,12 @@ bot.hears(['Siguiente clase','Siguiente Clase','siguiente clase'],(ctx)=>{
     let c= clase()
 ctx.reply(c)
 })
+bot.help((ctx)=>{
+    ctx.reply(`Puedes decir Clase,clase,Clases,clases,misclase,MisClases para ver tu horario
+    o /siguienteClase,/SiguienteClase,/siguienteclase,/Siguienteclase para saber cuando sera tu proxima clase
+    ademas de Siguiente clase,Siguiente Clase,siguiente clase para lo mismo
+    `)
+})
 function mandarMensaje() {
     bot.telegram.sendMessage(1207906186,'Vas a clase')   
 }
